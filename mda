@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-24T08:46:59.044Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0" etag="d_jFAX7IL7xauEf_2xcH" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-24T09:05:21.650Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0" etag="RqYP7oLsuajkE8XRXFM0" version="21.2.1" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1434" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -20,13 +20,13 @@
           <mxGeometry x="200" y="230" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="d69S2zD-CH_v1DWHPjQC-5" value="Сервер" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="290" width="120" height="20" as="geometry" />
+          <mxGeometry x="360" y="280" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="d69S2zD-CH_v1DWHPjQC-6" value="Выбор хостинга" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="330" width="120" height="20" as="geometry" />
+          <mxGeometry x="360" y="320" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="d69S2zD-CH_v1DWHPjQC-7" value="RDP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="370" width="120" height="20" as="geometry" />
+          <mxGeometry x="360" y="360" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="d69S2zD-CH_v1DWHPjQC-8" value="Регистрируем сервисы СМС" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="420" width="200" height="20" as="geometry" />
@@ -165,6 +165,48 @@
         </mxCell>
         <mxCell id="d69S2zD-CH_v1DWHPjQC-64" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.parallel_mode;pointerEvents=1" vertex="1" parent="1">
           <mxGeometry x="420" y="720" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d69S2zD-CH_v1DWHPjQC-65" value="Сервисы для регистрации аккаунтов" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="790" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d69S2zD-CH_v1DWHPjQC-66" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="d69S2zD-CH_v1DWHPjQC-65" target="d69S2zD-CH_v1DWHPjQC-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="780" as="sourcePoint" />
+            <mxPoint x="370" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d69S2zD-CH_v1DWHPjQC-67" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="d69S2zD-CH_v1DWHPjQC-65" target="d69S2zD-CH_v1DWHPjQC-63">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="780" as="sourcePoint" />
+            <mxPoint x="300" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d69S2zD-CH_v1DWHPjQC-68" value="OnlineSIM" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="870" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d69S2zD-CH_v1DWHPjQC-69" value="SMS-activate" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="870" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d69S2zD-CH_v1DWHPjQC-70" value="Vak-sms" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="870" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d69S2zD-CH_v1DWHPjQC-71" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="d69S2zD-CH_v1DWHPjQC-68" target="d69S2zD-CH_v1DWHPjQC-65">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="870" as="sourcePoint" />
+            <mxPoint x="180" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d69S2zD-CH_v1DWHPjQC-72" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="d69S2zD-CH_v1DWHPjQC-69" target="d69S2zD-CH_v1DWHPjQC-65">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="970" as="sourcePoint" />
+            <mxPoint x="300" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d69S2zD-CH_v1DWHPjQC-73" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="d69S2zD-CH_v1DWHPjQC-70" target="d69S2zD-CH_v1DWHPjQC-65">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="880" as="sourcePoint" />
+            <mxPoint x="440" y="830" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

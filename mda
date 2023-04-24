@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-24T09:08:27.256Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0" etag="WzdmOsqHoiKs2hrbXsLP" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-24T10:36:49.874Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0" etag="qhVTq0mPRTdLGqVU2mmd" version="21.2.1" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1434" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -236,7 +236,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="d69S2zD-CH_v1DWHPjQC-80" value="Аренда и установка прокси" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="195" y="1000" width="250" height="20" as="geometry" />
+          <mxGeometry x="227.5" y="1000" width="185" height="20" as="geometry" />
         </mxCell>
         <mxCell id="d69S2zD-CH_v1DWHPjQC-81" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="d69S2zD-CH_v1DWHPjQC-80" target="d69S2zD-CH_v1DWHPjQC-76">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -254,6 +254,37 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="220" y="1080" as="sourcePoint" />
             <mxPoint x="270" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d69S2zD-CH_v1DWHPjQC-84" value="Варианты аренды прокси" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="232.5" y="1040" width="175" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d69S2zD-CH_v1DWHPjQC-85" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="d69S2zD-CH_v1DWHPjQC-84" target="d69S2zD-CH_v1DWHPjQC-80">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="1085" as="sourcePoint" />
+            <mxPoint x="240" y="1035" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d69S2zD-CH_v1DWHPjQC-86" value="proxy.txt" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="291.25" y="1080" width="57.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d69S2zD-CH_v1DWHPjQC-87" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="d69S2zD-CH_v1DWHPjQC-86" target="d69S2zD-CH_v1DWHPjQC-84">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="1150" as="sourcePoint" />
+            <mxPoint x="260" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d69S2zD-CH_v1DWHPjQC-88" value="Zennolab" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="291.25" y="1120" width="57.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d69S2zD-CH_v1DWHPjQC-90" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="d69S2zD-CH_v1DWHPjQC-80" target="d69S2zD-CH_v1DWHPjQC-65">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="1090" as="sourcePoint" />
+            <mxPoint x="110" y="820" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="1010" />
+              <mxPoint x="80" y="800" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
